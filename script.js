@@ -40,8 +40,10 @@ const init = function () {
   player1El.classList.remove("player--active");
 };
 
+// Starting in open window
 init();
 
+// Function for swtich player
 const switchPlayer = function () {
   document.getElementById(`current--${activePlayer}`).textContent = 0;
   currentScore = 0;
